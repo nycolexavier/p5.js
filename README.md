@@ -1,12 +1,17 @@
-# p5.js
+# Biblioteca p5.js
 
 ## Lidando com figuras 2D
 
-### Animação
+### Animação 
 
+<iframe src="https://editor.p5js.org/nycolexavier/embed/CiPknCJcQ"></iframe>
+
+&nbsp;
+
+#### Código dessa animação 👇
 ```js
     function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
     background(123, 224, 173);
   }
   
@@ -18,11 +23,11 @@
   }
 
     function mousePressed() {
-    background(0, 200, 0);
+    background(123, 224, 173)
 }
 ```
 
 ### Documentação do p5 [aqui](https://p5js.org/)
-(colocar um gif da atividade que está na pasta sketch.js)
+
 
  

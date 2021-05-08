@@ -4,12 +4,6 @@
 
 ### Animação 
 
-<iframe src="https://editor.p5js.org/nycolexavier/embed/CiPknCJcQ" alt="animação" frameborder="0" allowfullscreen="true"></iframe>
-
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
 &nbsp;
 
 #### Código dessa animação 👇

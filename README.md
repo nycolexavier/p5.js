@@ -2,7 +2,7 @@
 
 ## Lidando com figuras 2D
 
-### Animação 
+### Animação 😀
 
 ```js
     function setup() {

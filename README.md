@@ -25,6 +25,30 @@
     background(123, 224, 173)
 }
 ```
+### Cor e formas 🎨
+
+
+
+```javascript
+    function setup() {
+    createCanvas(windowWidth, windowHeight);
+  }
+  
+  function draw() {
+    background(115, 171, 132);
+  
+    rectMode(CENTER);
+
+    fill(0, 255, 100);
+    stroke(0, 255, 0);
+    rect(200, 150, 150, 150);
+
+    fill(121, 199, 197, 255);
+    noStroke();
+    ellipse(150, 250, 100, 75); 
+  }
+```
+
 
 
 ## 💡 Definições importantes: 
@@ -32,11 +56,11 @@
 * createCanvas ( )
 * background ( )
 * noStroke ( )
-* fill ( )
+* Cor: fill ( ) 
 * circle ( )
 * function mousePressed ( )
+* Tamanho da tela: createCanvas ( )
 
-### Documentação do p5 [aqui](https://p5js.org/)
 
 Feito com 💖 por [Nycole](https://github.com/nycolexavier:)
 

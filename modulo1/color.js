@@ -1,22 +1,20 @@
 function setup() {
-    createCanvas(400, 400);
-  }
-  
-  function draw() {
-    background(100);
-  
-    rectMode(CENTER);
+  createCanvas(windowWidth, windowHeight);
+}
 
-    fill(0, 255, 0);
-    stroke(0, 255, 0);
-    rect(200, 150, 150, 150);
+function draw() {
+  background(115, 171, 132);
 
-    fill(255, 0, 0, 100);
-    noStroke();
-    ellipse(150, 250, 100, 75);
+  rectMode(CENTER);
 
-    
-  }
+  fill(0, 255, 100);
+  stroke(0, 255, 0);
+  rect(200, 150, 150, 150);
+
+  fill(121, 199, 197, 255);
+  noStroke();
+  ellipse(150, 250, 100, 75); 
+}
 
   // definir o fundo
 

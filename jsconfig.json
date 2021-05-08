@@ -3,5 +3,5 @@
     "*.js",
     "libraries/*.js",
     "c:\\Users\\Windows7\\.vscode\\extensions\\samplavigne.p5-vscode-1.2.6\\p5types\\global.d.ts"
-  ]
+, "modulo1/color.js", "modulo2/random.js", "modulo2/random2.js", "modulo2/map.js", "modulo2/variablesinp5.js", "modulo1/sketch.js", "modulo1/animation.js"  ]
 }

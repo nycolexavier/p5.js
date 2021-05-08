@@ -4,10 +4,6 @@
 
 ### Animação 
 
-
-&nbsp;
-
-#### Código dessa animação 👇
 ```js
     function setup() {
     createCanvas(windowWidth, windowHeight);

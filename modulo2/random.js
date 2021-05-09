@@ -10,7 +10,7 @@ let lineWidth;
 
 // tamanho da tela
 function setup() {
-    createCanvas(400, 300);
+    createCanvas(windowWidth, windowHeigth);
     background(100);
 }
 

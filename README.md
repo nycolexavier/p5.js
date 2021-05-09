@@ -22,9 +22,6 @@
 }
 ```
 ### Cor e formas 🎨
-
-
-
 ```javascript
     function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -50,7 +47,7 @@
   let circleX = 100;
 // Tamanho da tela
   function setup() {
-    createCanvas(400,300);
+    createCanvas(windowWidth, windowHeight);
 }
 // Quando clico no mouse, ele vai para x = 0
   function mousePressed() {
@@ -62,6 +59,28 @@
     fill(255);
     circle(circleX, 150, 64)
     circleX += 5;
+}
+```
+### Movimento 🏃‍♀️
+```javascript
+let squareSize;
+let lineWidth;
+
+// tamanho da tela
+function setup() {
+    createCanvas(windowWidth, windowHeigth);
+    background(100);
+}
+
+function draw() {
+    lineWidth = random(4, 28);
+    squareSize = random(5, 250);
+
+    rectMode(CENTER);
+    strokeWeight(lineWidth);
+    stroke(0, 0, 255);
+    fill(0, 255, 0, 10);
+    square(200, 150, squareSize);
 }
 ```
 ### Gráficos ⭐
@@ -111,6 +130,8 @@ function draw() {
 * circle ( )
 * Clicar no mouse: function mousePressed ( )
 * Tamanho da tela: createCanvas ( )
+* windowWidth: preenche toda a largura
+* windowHeight: preenche toda a altura
 
 
 Feito com 💖 por [Nycole](https://github.com/nycolexavier:)

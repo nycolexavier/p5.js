@@ -180,6 +180,29 @@ function draw() {
     ellipse(300, 200, 100, 100);
 }
 ```
+### Bola em movimento ⚽
+``` javascript
+var x = 0;
+var speed = 3;
+
+  function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+  function draw() {
+  background(0);
+  
+  stroke(255);
+  strokeWeight(4);
+  noFill();
+  ellipse(x, 200, 100, 100);
+  
+  if (x > width) {
+    speed = -3;
+  }
+  x = x + speed 
+}
+``` 
 
 
 ## 💡 Definições importantes: 
@@ -187,9 +210,12 @@ function draw() {
 * Variavel global é aquela que está disponível para todo o códido
 * Tamanho da tela: createCanvas ( )
 * Cor do fundo: background ( )
+* stroke ( )
 * noStroke ( )
+* strokeWeight ( )
 * Cor: fill ( ) 
 * circle ( )
+* ellipse ( )
 * Clicar no mouse: function mousePressed ( )
 * Tamanho da tela: createCanvas ( )
 * windowWidth: preenche toda a largura
@@ -199,4 +225,5 @@ function draw() {
 
 Feito com 💖 por [Nycole](https://github.com/nycolexavier:)
 
+(repositório em desenvolvimento)
  

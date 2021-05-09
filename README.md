@@ -103,6 +103,28 @@ function draw() {
     circle(x, y, 24)
 }
 ```
+### Mudança de cor 🖍️
+```javascript
+let squareSize;
+let lineWidth;
+
+var r = 0;
+var b = 255;
+
+  function setup() {
+    createCanvas (windowWidth, windowHeight);
+}
+
+  function draw() {
+    // background
+    r = map(mouseX, 0, 600, 0, 255)
+    b = map(mouseX, 0, 600, 255, 0)
+    background(r, 0, b);
+    //ellipse
+    fill(250, 118, 222);
+    ellipse(mouseX, 200, 64, 64);
+}
+```
 ### Gráficos ⭐
 ```javascript
 let x = 200;

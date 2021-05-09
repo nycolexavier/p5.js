@@ -1,8 +1,6 @@
 # 📚 Projetos utlizando a [Biblioteca p5.js](https://p5js.org/) 
 
-## Lidando com figuras 2D
-
-### Animação 😀
+## Módulo 1 😀
 
 ```js
     function setup() {
@@ -41,6 +39,7 @@
     ellipse(150, 250, 100, 75); 
   }
 ```
+## Módulo 2 😁
 ### Variáveis ✨
 ```javascript
 // Variável global
@@ -160,6 +159,27 @@ function draw() {
     rect(x, y, 20, 20);
 }
 ```
+## Módulo 3 😄
+### Declarações condicionais 🧮
+```javascript
+  function setup() {
+    createCanvas(windowWidth, windowHeight);
+}
+
+  function draw() {
+    background(0);
+
+    stroke(255);
+    strokeWeight(4);
+    noFill();
+  
+    if(mouseX > 300){
+      fill(255, 0, 200);
+    }
+  
+    ellipse(300, 200, 100, 100);
+}
+```
 
 
 ## 💡 Definições importantes: 
@@ -174,6 +194,7 @@ function draw() {
 * Tamanho da tela: createCanvas ( )
 * windowWidth: preenche toda a largura
 * windowHeight: preenche toda a altura
+* Preenchimento: fill()
 
 
 Feito com 💖 por [Nycole](https://github.com/nycolexavier:)

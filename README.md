@@ -44,6 +44,26 @@
     ellipse(150, 250, 100, 75); 
   }
 ```
+### Variáveis ✨
+```javascript
+// Variável global
+  let circleX = 100;
+// Tamanho da tela
+  function setup() {
+    createCanvas(400,300);
+}
+// Quando clico no mouse, ele vai para x = 0
+  function mousePressed() {
+    circleX = 0;
+}
+  function draw() {
+    background(0);
+    noStroke();
+    fill(255);
+    circle(circleX, 150, 64)
+    circleX += 5;
+}
+```
 ### Gráficos ⭐
 ```javascript
 let x = 200;

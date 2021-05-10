@@ -274,6 +274,7 @@ function mousePressed() {
   }
 }
 ```
+## Módulo 4 🙂
 
 
 ## 💡 Definições importantes: 
@@ -287,6 +288,7 @@ function mousePressed() {
 * Cor: fill ( ) 
 * circle ( )
 * ellipse ( )
+* Variável local: aquela que é colocada dentro de uma função
 * Clicar no mouse: function mousePressed ( )
 * Tamanho da tela: createCanvas ( )
 * windowWidth: preenche toda a largura

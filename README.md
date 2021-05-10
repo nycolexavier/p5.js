@@ -275,10 +275,10 @@ function mousePressed() {
 }
 ```
 ## Módulo 4 🙂
-### While 
+### While e Loops
 ```javascript
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(400, 400);
 }
 
 function draw() {
@@ -287,9 +287,18 @@ function draw() {
   stroke(255);
   
   var x = 0;
-  while( x <= 50) {
-    ellipse(x, 200, 25, 25);
+  while ( x <= width) {
+    fill(0, 200, 255)
+    ellipse(x, 100, 25, 25);
     x = x + 50;
+  }
+  
+  // for: 
+  // os dois exemplos são escritos diferentes mas tem o mesmo resultado!
+  
+  for (var x = 0; x <= width; x += 50) {
+    fill(255, 0, 200)
+    ellipse(x, 300, 25, 25);
   }
 }
 ```
@@ -303,7 +312,7 @@ function draw() {
 * stroke ( )
 * noStroke ( )
 * strokeWeight ( )
-* Cor: fill ( ) 
+* Borda: fill ( ) 
 * circle ( )
 * ellipse ( )
 * Variável local: aquela que é colocada dentro de uma função

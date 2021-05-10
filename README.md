@@ -222,25 +222,31 @@ function draw() {
 
 ### Bola em movimento ( if ) ⚽
 ``` javascript
-var x = 0;
-var speed = 3;
-
-  function setup() {
-  createCanvas(windowWidth, windowHeight);
+var ball = {
+  x: 300,
+  y: 200,
+  xspeed: 4,
+  yspeed: -3
+}
+function setup() {
+  createCanvas(600, 400);
 }
 
-  function draw() {
-  background(0);
-  
+function draw() {
+  background(220);
   stroke(255);
   strokeWeight(4);
   noFill();
-  ellipse(x, 200, 100, 100);
+  ellipse(ball.x, ball.y, 24, 24);
   
-  if (x > width || x < 0 ) {
-    speed = speed * -1;
+  if (ball.x > width || ball.x < 0 ) {
+    ball.xspeed = ball.xspeed * -1;
   }
-  x = x + speed 
+  if (ball.y > height || ball.y < 0 ) {
+    ball.yspeed = ball.yspeed * -1;
+  }
+  ball.x = ball.x + ball.xspeed;
+  ball.y = ball.y + ball.yspeed;
 }
 ```
 
@@ -321,7 +327,8 @@ function setup() {
     }
 }
 ```
-
+## Módulo 5 🤓
+### 
 
 ## 💡 Definições importantes: 
 

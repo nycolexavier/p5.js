@@ -275,7 +275,7 @@ function mousePressed() {
 }
 ```
 ## Módulo 4 🙂
-### While e Loops
+### While e Loops 🧵
 ```javascript
 function setup() {
   createCanvas(400, 400);

@@ -160,7 +160,7 @@ function draw() {
 }
 ```
 ## Módulo 3 😄
-### Declarações condicionais 🧮
+### Declarações condicionais ( if ) 🧮
 ```javascript
   function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -179,8 +179,48 @@ function draw() {
   
     ellipse(300, 200, 100, 100);
 }
+
+### Declarações condiconais ( if and else if) 🧮
+```javascript
+      function setup() {
+    createCanvas(windowWidth, windowHeight);
+  }
+  
+    function draw() {
+    background(0);
+    stroke(255);
+    strokeWeight(4);
+    noFill();
+    
+    if(mouseX > 250){
+      ellipse(300, 200, 100, 100);
+    } else if (mouseX > 150) {
+      rect(300, 200, 100, 100);
+    } else if (mouseX > 50) {
+      line(0, 0, width, height);
+    } else {
+      point(300, 200);
+    }
+  }
 ```
-### Bola em movimento ⚽
+### Declarações condicioanis ( && ) 🧮
+```javascript
+  function setup() {
+        createCanvas(600, 400);
+}
+  function draw() {
+    background(0);
+    stroke(255);
+    strokeWeight(4);
+    noFill();
+    if (mouseX > 300 && mouseX < 400){
+      fill(255, 0, 200);
+}
+    rect(300, 200, 100, 100);
+}
+```
+
+### Bola em movimento ( if ) ⚽
 ``` javascript
 var x = 0;
 var speed = 3;
@@ -197,12 +237,11 @@ var speed = 3;
   noFill();
   ellipse(x, 200, 100, 100);
   
-  if (x > width) {
-    speed = -3;
+  if (x > width || x < 0 ) {
+    speed = speed * -1;
   }
   x = x + speed 
 }
-``` 
 
 
 ## 💡 Definições importantes: 

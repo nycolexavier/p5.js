@@ -242,6 +242,7 @@ var speed = 3;
   }
   x = x + speed 
 }
+```
 
 
 ## 💡 Definições importantes: 

@@ -393,6 +393,7 @@ function lollipop(x, y, diameter) {
 ## 💡 Definições importantes: 
 
 * Variavel global é aquela que está disponível para todo o códido
+* Variável local: aquela que é colocada dentro de uma função
 * Tamanho da tela: createCanvas ( )
 * Cor do fundo: background ( )
 * stroke ( )
@@ -400,14 +401,14 @@ function lollipop(x, y, diameter) {
 * strokeWeight ( )
 * Borda: fill ( ) 
 * circle ( )
-* Random ( )
+* Fornece um valor aleatório entre um intervalo: Random ( )
 * Desenha um ellipse na tela: ellipse ( )
-* Variável local: aquela que é colocada dentro de uma função
 * Clicar no mouse: function mousePressed ( )
 * Tamanho da tela: createCanvas ( )
+* Preenchimento: fill ( )
 * windowWidth: preenche toda a largura
 * windowHeight: preenche toda a altura
-* Preenchimento: fill()
+
 
 
 Feito com 💖 por [Nycole](https://github.com/nycolexavier:)

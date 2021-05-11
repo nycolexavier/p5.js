@@ -347,7 +347,6 @@ function draw() {
   display();
 }
 
-
 function move() {
   ball.x = ball.x + ball.xspeed;
   ball.y = ball.y + ball.yspeed;
@@ -369,6 +368,27 @@ function display() {
   ellipse(ball.x, ball.y, 24, 24); 
 }
 ```
+### Function Parameters and Arguments
+```javascript
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(50);
+  
+  lollipop(100, 100, 50);
+  lollipop(300, 200, 50);
+}
+
+function lollipop(x, y, diameter) {
+  fill(0, 200, 255);
+  rect(x-10, y, 20, 250);
+  
+  fill(255, 0, 200);
+  ellipse(x, y, diameter, diameter);
+}
+```
 
 ## 💡 Definições importantes: 
 
@@ -380,7 +400,8 @@ function display() {
 * strokeWeight ( )
 * Borda: fill ( ) 
 * circle ( )
-* ellipse ( )
+* Random ( )
+* Desenha um ellipse na tela: ellipse ( )
 * Variável local: aquela que é colocada dentro de uma função
 * Clicar no mouse: function mousePressed ( )
 * Tamanho da tela: createCanvas ( )

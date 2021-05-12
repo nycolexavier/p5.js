@@ -410,7 +410,7 @@ function milesToKm(miles) {
 * Variável local: aquela que é colocada dentro de uma função
 * Tamanho da tela: createCanvas ( )
 * Cor do fundo: background ( )
-* stroke ( )
+* Borda: stroke ( )
 * noStroke ( )
 * strokeWeight ( )
 * Borda: fill ( ) 

@@ -413,7 +413,7 @@ function milesToKm(miles) {
 * Borda: stroke ( )
 * noStroke ( )
 * strokeWeight ( )
-* Borda: fill ( ) 
+* Preenchimento: fill ( ) 
 * circle ( )
 * Fornece um valor aleatório entre um intervalo: Random ( )
 * Desenha um ellipse na tela: ellipse ( )
